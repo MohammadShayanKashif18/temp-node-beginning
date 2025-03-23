@@ -8,7 +8,7 @@ http
     const filestream = fs.createReadStream('./content/big,txt', 'utf-8');
     filestream.on('open', ()=>{
 
-      // pipe humey response send krta hai file 
+      // pipe humey response send krta hai 
       filestream.pipe(res)
 
     })
